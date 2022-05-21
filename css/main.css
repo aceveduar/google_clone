@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer; /* Les pone una manita al pasar */
+}
+
+header {
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header nav .nav-right-section {
+    width: 250px;
+    height: auto;
+    list-style: none; /*Quita el bullet */
+    display: flex; /* Pone las listas en una sola linea */
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .nav-right-section li a {
+    margin-right: 10px;
+    color: #000000;
+}
+
+header nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;  /* La imagen se aproximara al tamaño del contenedor.*/
+    width: 25px;
+    height: 25px;
+    
+}
+
+nav .nav-right-section img {
+    border-radius: 50%;
+    margin-left: 10px;
+    /* width: 25px;
+    height: 25px; */
+}
